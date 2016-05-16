@@ -1,0 +1,7 @@
+spring:
+  hadoop:
+    config:
+      fs.defaultFS: hdfs://localhost:9000
+    fs-uri: hdfs://localhost:9000
+    resource-manager-host: localhost
+    resource-manager-scheduler-host: localhost
